@@ -3,6 +3,8 @@
  使用OpenWrt Snapshot源码编译[lwz322/k3screenctrl](https://github.com/lwz322/k3screenctrl)使用的编译文件
 
  由于知识水平之外的原因，在这里添加了luci-app-k3screenctrl的config文件`/file/k3screenctrl`
+
+ release中有编译了屏幕组件的K3固件，仅供参考效果...
  
 # k3screenctrl_build
 
