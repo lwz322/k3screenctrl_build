@@ -5,7 +5,7 @@ PKG_VERSION:=0.10
 PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/lwz322/Hill-98-k3screenctrl.git
+PKG_SOURCE_URL:=https://github.com/lwz322/k3screenctrl.git
 PKG_SOURCE_VERSION:=0eaeb55f51da685a18ff153db3461bbcb19b47f8
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_SOURCE_VERSION)
 PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.xz
@@ -21,7 +21,7 @@ define Package/k3screenctrl
   CATEGORY:=Utilities
   DEPENDS:=@TARGET_bcm53xx_DEVICE_phicomm-k3 +@KERNEL_DEVMEM +jq +coreutils-od +bash +curl
   TITLE:=LCD screen controller on PHICOMM K3
-  URL:=https://github.com/lwz322/Hill-98-k3screenctrl.git
+  URL:=https://github.com/lwz322/k3screenctrl.git
 endef
 
 define Package/k3screenctrl/description
