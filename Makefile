@@ -43,10 +43,10 @@ define Package/k3screenctrl/install
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/basic.sh $(1)/lib/k3screenctrl/
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/host.sh $(1)/lib/k3screenctrl/
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/weather.sh $(1)/lib/k3screenctrl/
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/oui/oui.txt $(1)/lib/k3screenctrl/oui
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/lib/k3screenctrl/oui/oui.txt $(1)/lib/k3screenctrl/oui/
 
-	$(INSTALL_BIN) ./files/k3screenctrl.init $(1)/etc/init.d/k3screenctrl
-	$(INSTALL_BIN) ./files/k3screenctrl $(1)/etc/config
+	$(INSTALL_BIN) ./files/k3screenctrl.init $(1)/etc/init.d/k3screenctrl/
+	$(INSTALL_BIN) ./files/k3screenctrl $(1)/etc/config/
 endef
 
 $(eval $(call BuildPackage,k3screenctrl))
