@@ -4,7 +4,7 @@ config general
 	option refresh_time '2'
 	option pawd_hide '1'
 	option psk_hide '1'
-	option cputemp '1'
+	option showmore '1'
 	option city_checkip '1'
 	option update_time '3600'
 
