@@ -7,4 +7,3 @@ config general
 	option showmore '1'
 	option city_checkip '0'
 	option update_time '0'
-
