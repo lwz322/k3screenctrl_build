@@ -5,6 +5,6 @@ config general
 	option pawd_hide '1'
 	option psk_hide '1'
 	option showmore '1'
-	option city_checkip '1'
-	option update_time '3600'
+	option city_checkip '0'
+	option update_time '0'
 
